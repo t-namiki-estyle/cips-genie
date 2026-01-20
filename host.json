@@ -1,0 +1,26 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      }
+    }
+  },
+  "extensions": {
+    "durableTask": {
+      "hubName": "GenieTaskHub",
+      "maxConcurrentActivityFunctions": 10,
+      "maxConcurrentOrchestratorFunctions": 10,
+      "storageProvider": {
+        "maxQueuePollingInterval": "00:00:20",
+        "partitionCount": 4
+      }
+    }
+  },
+  "extensionBundle": {
+    "id": "Microsoft.Azure.Functions.ExtensionBundle",
+    "version": "[4.*, 5.0.0)"
+  }
+}
