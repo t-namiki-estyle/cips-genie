@@ -7,7 +7,7 @@ name: Build and deploy Python project to Azure Function App - Azu0121SyDvJpeFunc
 on:
   push:
     branches:
-      - staging
+      - dev
   workflow_dispatch:
 
 jobs:
