@@ -12,7 +12,7 @@ on:
 
 jobs:
   call-workflow:
-    uses: t-namiki-estyle/icf-i-style/.github/workflows/reusable-azure-functions-python-deploy.yml@main
+    uses: t-namiki-estyle/i-style/.github/workflows/reusable-azure-functions-python-deploy.yml@main
     with:
       PYTHON_VERSION: "3.12"
       APP_NAME: 'Azu0121SyDvJpeFunc002'
