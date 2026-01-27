@@ -95,14 +95,14 @@ from config import (
 from replace_list import replace_list
 
 from crm import csv_search
-from whisper_bp import bp as whisper_bp
-from zoom_bp import bp as zoom_bp
-from audio_upload_bp import bp as audio_upload_bp  # これは元のままでOK
-from box_bp import bp as box_bp
-from log_bp import bp as log_bp, access_merchant_rate
-from history_bp import bp as history_bp
-from ocr_bp import bp as ocr_bp
-from file_diff_bp import bp as file_diff_bp
+from whisper_bp import whisper_bp
+from zoom_bp import zoom_bp
+from audio_upload_bp import bp as audio_upload_bp
+from box_bp import box_bp
+from log_bp import log_bp, access_merchant_rate
+from history_bp import history_bp
+from ocr_bp import ocr_bp
+from file_diff_bp import file_diff_bp
 
 from blueprints import blob_dl_bp, hanabi_bp, word_bp
 
